@@ -20,19 +20,10 @@
 
 @implementation ViewController
 
-//- (id)initWithRouterParams:(NSDictionary *)params {
-//    if (self = [self initWithNibName:nil bundle:nil]) {
-//        self.title = @"oyj";
-//        ctx = [params objectForContext];
-//    }
-//    return self;
-//}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
-//    [ctx next];
 //    [self getData];
 //    self.lock = [[NSConditionLock alloc] initWithCondition:1];
 //    [[[NSThread alloc] initWithTarget:self selector:@selector(three) object:nil] start];
