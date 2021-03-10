@@ -13,13 +13,13 @@
 		140D1A1425E4B0540056A2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140D1A1325E4B0540056A2A1 /* Assets.xcassets */; };
 		140D1A1725E4B0540056A2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140D1A1525E4B0540056A2A1 /* LaunchScreen.storyboard */; };
 		140D1A1A25E4B0540056A2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140D1A1925E4B0540056A2A1 /* main.m */; };
-		14199E0625F626D9007AB3F7 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14199E0525F626D9007AB3F7 /* LoginVC.m */; };
 		143CC24B25E7402C000A3D45 /* TestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 143CC24A25E7402C000A3D45 /* TestService.m */; };
 		143CC25D25E79B58000A3D45 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 143CC25C25E79B58000A3D45 /* assets */; };
-		143CC26825E79D50000A3D45 /* MADCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143CC26025E79BB1000A3D45 /* MADCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		143CC26E25E79DB2000A3D45 /* MADCoreSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 143CC26D25E79DB2000A3D45 /* MADCoreSource.bundle */; };
+		14520E5725F8799D00750C65 /* OYJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 14520E5625F8799D00750C65 /* OYJTextField.m */; };
 		147930F725F0C157002BA9D2 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 147930F625F0C157002BA9D2 /* HomeModel.m */; };
 		1496293E25F1D9C400A47088 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496293D25F1D9C400A47088 /* DataModel.m */; };
+		14F48D3025F8A6ED003ADD43 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F48D2F25F8A6ED003ADD43 /* LoginVC.m */; };
+		14F48D3425F8AEF6003ADD43 /* LoginV.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F48D3325F8AEF6003ADD43 /* LoginV.m */; };
 		954E74FCD8A96160231B1F2B /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EC407AFB8A02365C897B08 /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
@@ -36,17 +36,19 @@
 		140D1A1925E4B0540056A2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14199E0025F6260E007AB3F7 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		14199E0125F62617007AB3F7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		14199E0425F626D9007AB3F7 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
-		14199E0525F626D9007AB3F7 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		143CC24925E7402C000A3D45 /* TestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestService.h; sourceTree = "<group>"; };
 		143CC24A25E7402C000A3D45 /* TestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestService.m; sourceTree = "<group>"; };
 		143CC25C25E79B58000A3D45 /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
-		143CC26025E79BB1000A3D45 /* MADCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MADCore.framework; path = MADCore/debug/MADCore.framework; sourceTree = SOURCE_ROOT; };
-		143CC26D25E79DB2000A3D45 /* MADCoreSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MADCoreSource.bundle; sourceTree = "<group>"; };
+		14520E5525F8799D00750C65 /* OYJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYJTextField.h; sourceTree = "<group>"; };
+		14520E5625F8799D00750C65 /* OYJTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYJTextField.m; sourceTree = "<group>"; };
 		147930F525F0C157002BA9D2 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		147930F625F0C157002BA9D2 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		1496293C25F1D9C400A47088 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		1496293D25F1D9C400A47088 /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		14F48D2E25F8A6ED003ADD43 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		14F48D2F25F8A6ED003ADD43 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		14F48D3225F8AEF6003ADD43 /* LoginV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginV.h; sourceTree = "<group>"; };
+		14F48D3325F8AEF6003ADD43 /* LoginV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginV.m; sourceTree = "<group>"; };
 		85EC407AFB8A02365C897B08 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C434ED371DCDE2B40E360945 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		D0784C214037BD7D5C7E925C /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143CC26825E79D50000A3D45 /* MADCore.framework in Frameworks */,
 				954E74FCD8A96160231B1F2B /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,7 +91,6 @@
 				14199E0325F626C1007AB3F7 /* LoginV */,
 				14199DFF25F625F4007AB3F7 /* Marco */,
 				147930F425F0C13C002BA9D2 /* Model */,
-				143CC25F25E79B71000A3D45 /* MADCoree */,
 				143CC24825E73FE8000A3D45 /* Service */,
 				140D1A0725E4B0520056A2A1 /* AppDelegate.h */,
 				140D1A0825E4B0520056A2A1 /* AppDelegate.m */,
@@ -117,18 +117,11 @@
 		14199E0325F626C1007AB3F7 /* LoginV */ = {
 			isa = PBXGroup;
 			children = (
-				14199E0925F626DF007AB3F7 /* VC */,
+				14520E5225F8796500750C65 /* M */,
+				14520E5125F8795F00750C65 /* V */,
+				14F48D1C25F8A4CF003ADD43 /* C */,
 			);
 			path = LoginV;
-			sourceTree = "<group>";
-		};
-		14199E0925F626DF007AB3F7 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				14199E0425F626D9007AB3F7 /* LoginVC.h */,
-				14199E0525F626D9007AB3F7 /* LoginVC.m */,
-			);
-			path = VC;
 			sourceTree = "<group>";
 		};
 		143CC24825E73FE8000A3D45 /* Service */ = {
@@ -140,23 +133,23 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		143CC25F25E79B71000A3D45 /* MADCoree */ = {
+		14520E5125F8795F00750C65 /* V */ = {
 			isa = PBXGroup;
 			children = (
-				143CC26C25E79DB2000A3D45 /* Resource */,
-				143CC26025E79BB1000A3D45 /* MADCore.framework */,
+				14520E5525F8799D00750C65 /* OYJTextField.h */,
+				14520E5625F8799D00750C65 /* OYJTextField.m */,
+				14F48D3225F8AEF6003ADD43 /* LoginV.h */,
+				14F48D3325F8AEF6003ADD43 /* LoginV.m */,
 			);
-			path = MADCoree;
+			path = V;
 			sourceTree = "<group>";
 		};
-		143CC26C25E79DB2000A3D45 /* Resource */ = {
+		14520E5225F8796500750C65 /* M */ = {
 			isa = PBXGroup;
 			children = (
-				143CC26D25E79DB2000A3D45 /* MADCoreSource.bundle */,
 			);
-			name = Resource;
-			path = MADCore/Resource;
-			sourceTree = SOURCE_ROOT;
+			path = M;
+			sourceTree = "<group>";
 		};
 		147930F425F0C13C002BA9D2 /* Model */ = {
 			isa = PBXGroup;
@@ -167,6 +160,15 @@
 				1496293D25F1D9C400A47088 /* DataModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		14F48D1C25F8A4CF003ADD43 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				14F48D2E25F8A6ED003ADD43 /* LoginVC.h */,
+				14F48D2F25F8A6ED003ADD43 /* LoginVC.m */,
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 		C23512ACAE3A6A80AC20D93B /* Pods */ = {
@@ -243,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143CC26E25E79DB2000A3D45 /* MADCoreSource.bundle in Resources */,
 				140D1A1725E4B0540056A2A1 /* LaunchScreen.storyboard in Resources */,
 				143CC25D25E79B58000A3D45 /* assets in Resources */,
 				140D1A1425E4B0540056A2A1 /* Assets.xcassets in Resources */,
@@ -287,9 +288,11 @@
 				140D1A0F25E4B0520056A2A1 /* ViewController.m in Sources */,
 				143CC24B25E7402C000A3D45 /* TestService.m in Sources */,
 				140D1A0925E4B0520056A2A1 /* AppDelegate.m in Sources */,
+				14520E5725F8799D00750C65 /* OYJTextField.m in Sources */,
 				140D1A1A25E4B0540056A2A1 /* main.m in Sources */,
-				14199E0625F626D9007AB3F7 /* LoginVC.m in Sources */,
+				14F48D3025F8A6ED003ADD43 /* LoginVC.m in Sources */,
 				1496293E25F1D9C400A47088 /* DataModel.m in Sources */,
+				14F48D3425F8AEF6003ADD43 /* LoginV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +437,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = MADCore/debug/MADCore.framework;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MADCore/debug",
@@ -460,7 +462,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = MADCore/debug/MADCore.framework;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MADCore/debug",

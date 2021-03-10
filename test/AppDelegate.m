@@ -7,7 +7,6 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "MADCore.framework/Headers/MADCore.h"
 
 @interface AppDelegate ()
 
@@ -25,20 +24,6 @@
     nav.navigationBarHidden = YES;
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
-//    [self madpBoot:^{
-//
-//    }];
     return YES;
 }
-
-- (void)madpBoot:(dispatch_block_t)completion {
-    WXLogLevel logLevel = WXLogLevelOff;
-    logLevel = WXLogLevelInfo;
-
-    [MADEngine initEnvironmentWithLogLevel:logLevel];
-    [MADEngine startup];
-    
-    [self.window setRootViewController:[MADEngine getRootViewController]];
-}
-
 @end

@@ -10,6 +10,7 @@ target 'test' do
   pod 'YYModel','1.0.4'
   pod 'ReactiveObjC'
   pod 'Masonry'
+  pod 'MBProgressHUD'
   # Pods for test
 
 end
