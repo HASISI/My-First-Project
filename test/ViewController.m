@@ -13,7 +13,7 @@
 #import "MADCore.framework/Headers/MADCore.h"
 #import "LoginVC.h"
 
-@interface ViewController () {
+@interface ViewController ()<LoginVDelegate> {
     MADContext *ctx;
 }
 @property (strong, nonatomic) NSConditionLock *lock;
@@ -36,7 +36,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
 //    [ctx next];
-    [self getData];
+//    [self getData];
 //    self.lock = [[NSConditionLock alloc] initWithCondition:1];
 //    [[[NSThread alloc] initWithTarget:self selector:@selector(three) object:nil] start];
 //    [[[NSThread alloc] initWithTarget:self selector:@selector(one1) object:nil] start];
@@ -60,7 +60,9 @@
 }
 
 - (void)btnClick {
-    [self.navigationController pushViewController:[LoginVC new] animated:YES];
+    LoginVC *vc = [LoginVC new];
+    vc.delegate = self;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 #pragma mark 线程锁
@@ -92,6 +94,10 @@
     } WithFailBlock:^(NSError * _Nonnull error) {
         NSLog(@"----------------------------------error = %@----------------------------------",error);
     }];
+}
+
+- (void)passName:(NSString *)name passPwd:(NSString *)pwd {
+    NSLog(@"%@ ----- %@",name,pwd);
 }
 
 @end
