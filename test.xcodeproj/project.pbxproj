@@ -15,8 +15,6 @@
 		140D1A1A25E4B0540056A2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140D1A1925E4B0540056A2A1 /* main.m */; };
 		143CC24B25E7402C000A3D45 /* TestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 143CC24A25E7402C000A3D45 /* TestService.m */; };
 		143CC25D25E79B58000A3D45 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 143CC25C25E79B58000A3D45 /* assets */; };
-		143CC26825E79D50000A3D45 /* MADCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143CC26025E79BB1000A3D45 /* MADCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		143CC26E25E79DB2000A3D45 /* MADCoreSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 143CC26D25E79DB2000A3D45 /* MADCoreSource.bundle */; };
 		14520E5725F8799D00750C65 /* OYJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 14520E5625F8799D00750C65 /* OYJTextField.m */; };
 		147930F725F0C157002BA9D2 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 147930F625F0C157002BA9D2 /* HomeModel.m */; };
 		1496293E25F1D9C400A47088 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496293D25F1D9C400A47088 /* DataModel.m */; };
@@ -41,8 +39,6 @@
 		143CC24925E7402C000A3D45 /* TestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestService.h; sourceTree = "<group>"; };
 		143CC24A25E7402C000A3D45 /* TestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestService.m; sourceTree = "<group>"; };
 		143CC25C25E79B58000A3D45 /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
-		143CC26025E79BB1000A3D45 /* MADCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MADCore.framework; path = MADCore/debug/MADCore.framework; sourceTree = SOURCE_ROOT; };
-		143CC26D25E79DB2000A3D45 /* MADCoreSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MADCoreSource.bundle; sourceTree = "<group>"; };
 		14520E5525F8799D00750C65 /* OYJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYJTextField.h; sourceTree = "<group>"; };
 		14520E5625F8799D00750C65 /* OYJTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYJTextField.m; sourceTree = "<group>"; };
 		147930F525F0C157002BA9D2 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
@@ -63,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143CC26825E79D50000A3D45 /* MADCore.framework in Frameworks */,
 				954E74FCD8A96160231B1F2B /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +91,6 @@
 				14199E0325F626C1007AB3F7 /* LoginV */,
 				14199DFF25F625F4007AB3F7 /* Marco */,
 				147930F425F0C13C002BA9D2 /* Model */,
-				143CC25F25E79B71000A3D45 /* MADCoree */,
 				143CC24825E73FE8000A3D45 /* Service */,
 				140D1A0725E4B0520056A2A1 /* AppDelegate.h */,
 				140D1A0825E4B0520056A2A1 /* AppDelegate.m */,
@@ -138,24 +132,6 @@
 			);
 			path = Service;
 			sourceTree = "<group>";
-		};
-		143CC25F25E79B71000A3D45 /* MADCoree */ = {
-			isa = PBXGroup;
-			children = (
-				143CC26C25E79DB2000A3D45 /* Resource */,
-				143CC26025E79BB1000A3D45 /* MADCore.framework */,
-			);
-			path = MADCoree;
-			sourceTree = "<group>";
-		};
-		143CC26C25E79DB2000A3D45 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				143CC26D25E79DB2000A3D45 /* MADCoreSource.bundle */,
-			);
-			name = Resource;
-			path = MADCore/Resource;
-			sourceTree = SOURCE_ROOT;
 		};
 		14520E5125F8795F00750C65 /* V */ = {
 			isa = PBXGroup;
@@ -269,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143CC26E25E79DB2000A3D45 /* MADCoreSource.bundle in Resources */,
 				140D1A1725E4B0540056A2A1 /* LaunchScreen.storyboard in Resources */,
 				143CC25D25E79B58000A3D45 /* assets in Resources */,
 				140D1A1425E4B0540056A2A1 /* Assets.xcassets in Resources */,
@@ -462,7 +437,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = MADCore/debug/MADCore.framework;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MADCore/debug",
@@ -488,7 +462,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = MADCore/debug/MADCore.framework;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MADCore/debug",

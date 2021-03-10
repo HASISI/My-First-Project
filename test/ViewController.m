@@ -10,12 +10,9 @@
 #import <YYModel.h>
 #import "HomeModel.h"
 #import "DataModel.h"
-#import "MADCore.framework/Headers/MADCore.h"
 #import "LoginVC.h"
 
-@interface ViewController ()<LoginVDelegate> {
-    MADContext *ctx;
-}
+@interface ViewController ()<LoginVDelegate>
 @property (strong, nonatomic) NSConditionLock *lock;
 @property (strong, nonatomic) UIButton *btn;
 @property (strong, nonatomic) HomeModel *mo;
