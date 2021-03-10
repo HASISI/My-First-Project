@@ -51,10 +51,7 @@
         [self.v endEditing:YES];
         [self dismissViewControllerAnimated:YES completion:nil];
     } else {
-        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-        hud.mode = MBProgressHUDModeText;
-        hud.label.text = @"错误";
-        [hud hideAnimated:YES afterDelay:1];
+        [HUD successHUD:@"错误"];
     }
 }
 

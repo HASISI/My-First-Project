@@ -15,6 +15,6 @@
 #import <ReactiveObjC.h>
 #import <Masonry/Masonry.h>
 #import "OYJTextField.h"
-#import <MBProgressHUD.h>
+#import "OUProgressHUD.h"
 
 #endif /* PrefixHeader_pch */
