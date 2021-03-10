@@ -1,0 +1,6 @@
+framework module MADCore {
+  umbrella header "MADCore.h"
+
+  export *
+  module * { export * }
+}
