@@ -19,6 +19,7 @@ PODS:
   - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
   - ReactiveObjC (3.1.1)
   - YYModel (1.0.4)
 
@@ -27,15 +28,17 @@ DEPENDENCIES:
   - FMDB
   - Masonry
   - MBProgressHUD
+  - MJRefresh
   - ReactiveObjC
   - YYModel (= 1.0.4)
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - FMDB
     - Masonry
     - MBProgressHUD
+    - MJRefresh
     - ReactiveObjC
     - YYModel
 
@@ -44,9 +47,10 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: b0907b3404e105328625082ab353434e10e0c5b6
+PODFILE CHECKSUM: 4a246212e9a76a9f275338ea5e6160cc51b13bd7
 
 COCOAPODS: 1.5.3

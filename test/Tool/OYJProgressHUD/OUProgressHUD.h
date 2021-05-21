@@ -17,10 +17,18 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)shareManager;
 
 /**
+ 成功提示
  @param message 成功提示信息
  */
 - (void)successHUD:(NSString *)message;
-
+/**
+失败提示
+ */
+- (void)failHUD;
+/**
+进度条圆环提示
+ */
+- (void)determineHUD:(void(^)(void))completeBlock;
 
 @end
 
