@@ -24,11 +24,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
-//    [self getData];
-//    self.lock = [[NSConditionLock alloc] initWithCondition:1];
-//    [[[NSThread alloc] initWithTarget:self selector:@selector(three) object:nil] start];
-//    [[[NSThread alloc] initWithTarget:self selector:@selector(one1) object:nil] start];
-//    [[[NSThread alloc] initWithTarget:self selector:@selector(two) object:nil] start];
+    [self getData];
+    self.lock = [[NSConditionLock alloc] initWithCondition:1];
+    [[[NSThread alloc] initWithTarget:self selector:@selector(three) object:nil] start];
+    [[[NSThread alloc] initWithTarget:self selector:@selector(one1) object:nil] start];
+    [[[NSThread alloc] initWithTarget:self selector:@selector(two) object:nil] start];
     
     [self addOtherUI];
 }
@@ -49,8 +49,11 @@
 
 - (void)btnClick {
     LoginVC *vc = [LoginVC new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [nav setNavigationBarHidden:YES];
     vc.delegate = self;
-    [self presentViewController:vc animated:YES completion:nil];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 #pragma mark 线程锁

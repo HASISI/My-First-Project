@@ -16,5 +16,6 @@
 #import <Masonry/Masonry.h>
 #import "OYJTextField.h"
 #import "OUProgressHUD.h"
+#import "UIImage+Scale.h"
 
 #endif /* PrefixHeader_pch */

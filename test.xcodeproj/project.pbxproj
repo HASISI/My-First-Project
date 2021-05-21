@@ -13,10 +13,16 @@
 		140D1A1425E4B0540056A2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140D1A1325E4B0540056A2A1 /* Assets.xcassets */; };
 		140D1A1725E4B0540056A2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140D1A1525E4B0540056A2A1 /* LaunchScreen.storyboard */; };
 		140D1A1A25E4B0540056A2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140D1A1925E4B0540056A2A1 /* main.m */; };
+		142D65212653ADAC0041A4E6 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D65202653ADAC0041A4E6 /* HomeCell.m */; };
 		143CC24B25E7402C000A3D45 /* TestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 143CC24A25E7402C000A3D45 /* TestService.m */; };
 		14520E5725F8799D00750C65 /* OYJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 14520E5625F8799D00750C65 /* OYJTextField.m */; };
 		147930F725F0C157002BA9D2 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 147930F625F0C157002BA9D2 /* HomeModel.m */; };
 		1496293E25F1D9C400A47088 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496293D25F1D9C400A47088 /* DataModel.m */; };
+		14D098D6261706A3006C8A67 /* HomeV.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D098D5261706A3006C8A67 /* HomeV.m */; };
+		14D098E0261715FB006C8A67 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D098DF261715FB006C8A67 /* HomeVC.m */; };
+		14D228312603392400C4D12F /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D228302603392400C4D12F /* UIImage+Scale.m */; };
+		14E7E22F265604920034F6C0 /* HomeCellDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E7E22E265604920034F6C0 /* HomeCellDetailView.m */; };
+		14E7E23426560F1A0034F6C0 /* HomeCellDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E7E23326560F1A0034F6C0 /* HomeCellDetailViewController.m */; };
 		14F48D3025F8A6ED003ADD43 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F48D2F25F8A6ED003ADD43 /* LoginVC.m */; };
 		14F48D3425F8AEF6003ADD43 /* LoginV.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F48D3325F8AEF6003ADD43 /* LoginV.m */; };
 		14F48D4425F8C3FC003ADD43 /* OUProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F48D4325F8C3FC003ADD43 /* OUProgressHUD.m */; };
@@ -36,6 +42,8 @@
 		140D1A1925E4B0540056A2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14199E0025F6260E007AB3F7 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		14199E0125F62617007AB3F7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		142D651F2653ADAC0041A4E6 /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		142D65202653ADAC0041A4E6 /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 		143CC24925E7402C000A3D45 /* TestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestService.h; sourceTree = "<group>"; };
 		143CC24A25E7402C000A3D45 /* TestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestService.m; sourceTree = "<group>"; };
 		14520E5525F8799D00750C65 /* OYJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYJTextField.h; sourceTree = "<group>"; };
@@ -44,6 +52,16 @@
 		147930F625F0C157002BA9D2 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		1496293C25F1D9C400A47088 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		1496293D25F1D9C400A47088 /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		14D098D4261706A3006C8A67 /* HomeV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeV.h; sourceTree = "<group>"; };
+		14D098D5261706A3006C8A67 /* HomeV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeV.m; sourceTree = "<group>"; };
+		14D098DE261715FB006C8A67 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		14D098DF261715FB006C8A67 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		14D2282F2603392400C4D12F /* UIImage+Scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		14D228302603392400C4D12F /* UIImage+Scale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		14E7E22D265604920034F6C0 /* HomeCellDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellDetailView.h; sourceTree = "<group>"; };
+		14E7E22E265604920034F6C0 /* HomeCellDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellDetailView.m; sourceTree = "<group>"; };
+		14E7E23226560F1A0034F6C0 /* HomeCellDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellDetailViewController.h; sourceTree = "<group>"; };
+		14E7E23326560F1A0034F6C0 /* HomeCellDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellDetailViewController.m; sourceTree = "<group>"; };
 		14F48D2E25F8A6ED003ADD43 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		14F48D2F25F8A6ED003ADD43 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		14F48D3225F8AEF6003ADD43 /* LoginV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginV.h; sourceTree = "<group>"; };
@@ -88,6 +106,8 @@
 		140D1A0625E4B0520056A2A1 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				14E7E2292656044E0034F6C0 /* HomeCellDetail */,
+				14D098D02617064F006C8A67 /* Home */,
 				14F48D4025F8C390003ADD43 /* Tool */,
 				14199E0325F626C1007AB3F7 /* LoginV */,
 				14199DFF25F625F4007AB3F7 /* Marco */,
@@ -163,6 +183,87 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		14D098D02617064F006C8A67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				14D098D32617066D006C8A67 /* C */,
+				14D098D226170669006C8A67 /* V */,
+				14D098D126170664006C8A67 /* M */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		14D098D126170664006C8A67 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		14D098D226170669006C8A67 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				14D098D4261706A3006C8A67 /* HomeV.h */,
+				14D098D5261706A3006C8A67 /* HomeV.m */,
+				142D651F2653ADAC0041A4E6 /* HomeCell.h */,
+				142D65202653ADAC0041A4E6 /* HomeCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		14D098D32617066D006C8A67 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				14D098DE261715FB006C8A67 /* HomeVC.h */,
+				14D098DF261715FB006C8A67 /* HomeVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		14D228282603389600C4D12F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				14D2282F2603392400C4D12F /* UIImage+Scale.h */,
+				14D228302603392400C4D12F /* UIImage+Scale.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		14E7E2292656044E0034F6C0 /* HomeCellDetail */ = {
+			isa = PBXGroup;
+			children = (
+				14E7E22C2656046C0034F6C0 /* C */,
+				14E7E22B265604680034F6C0 /* V */,
+				14E7E22A265604620034F6C0 /* M */,
+			);
+			path = HomeCellDetail;
+			sourceTree = "<group>";
+		};
+		14E7E22A265604620034F6C0 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		14E7E22B265604680034F6C0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				14E7E22D265604920034F6C0 /* HomeCellDetailView.h */,
+				14E7E22E265604920034F6C0 /* HomeCellDetailView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		14E7E22C2656046C0034F6C0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				14E7E23226560F1A0034F6C0 /* HomeCellDetailViewController.h */,
+				14E7E23326560F1A0034F6C0 /* HomeCellDetailViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		14F48D1C25F8A4CF003ADD43 /* C */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +276,7 @@
 		14F48D4025F8C390003ADD43 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				14D228282603389600C4D12F /* Tool */,
 				14F48D4125F8C397003ADD43 /* OYJProgressHUD */,
 			);
 			path = Tool;
@@ -217,6 +319,7 @@
 				140D1A0025E4B0520056A2A1 /* Sources */,
 				140D1A0125E4B0520056A2A1 /* Frameworks */,
 				140D1A0225E4B0520056A2A1 /* Resources */,
+				DCCD741AC2D0962AC9B9B228 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +375,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DCCD741AC2D0962AC9B9B228 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E761E8864B75533938E8C5C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,14 +427,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				147930F725F0C157002BA9D2 /* HomeModel.m in Sources */,
+				14D228312603392400C4D12F /* UIImage+Scale.m in Sources */,
 				140D1A0F25E4B0520056A2A1 /* ViewController.m in Sources */,
 				143CC24B25E7402C000A3D45 /* TestService.m in Sources */,
+				14E7E23426560F1A0034F6C0 /* HomeCellDetailViewController.m in Sources */,
+				14D098E0261715FB006C8A67 /* HomeVC.m in Sources */,
 				140D1A0925E4B0520056A2A1 /* AppDelegate.m in Sources */,
 				14520E5725F8799D00750C65 /* OYJTextField.m in Sources */,
 				140D1A1A25E4B0540056A2A1 /* main.m in Sources */,
 				14F48D3025F8A6ED003ADD43 /* LoginVC.m in Sources */,
 				1496293E25F1D9C400A47088 /* DataModel.m in Sources */,
+				14D098D6261706A3006C8A67 /* HomeV.m in Sources */,
 				14F48D4425F8C3FC003ADD43 /* OUProgressHUD.m in Sources */,
+				14E7E22F265604920034F6C0 /* HomeCellDetailView.m in Sources */,
+				142D65212653ADAC0041A4E6 /* HomeCell.m in Sources */,
 				14F48D3425F8AEF6003ADD43 /* LoginV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V8DG647KR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MADCore/debug",
@@ -462,11 +594,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/Marco/PrefixHeader.pch";
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oyj.test;
+				PRODUCT_BUNDLE_IDENTIFIER = oyj.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MADCore/debug";
@@ -480,6 +613,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V8DG647KR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MADCore/debug",
@@ -487,11 +621,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/Marco/PrefixHeader.pch";
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oyj.test;
+				PRODUCT_BUNDLE_IDENTIFIER = oyj.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MADCore/debug";

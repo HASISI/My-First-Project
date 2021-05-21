@@ -7,7 +7,8 @@
 
 #import "LoginVC.h"
 #import "LoginV.h"
-
+#import "ViewController.h"
+#import "HomeVC.h"
 
 @interface LoginVC ()
 
@@ -41,17 +42,19 @@
 }
 
 - (void)login {
-    if (_v.field1.text.length > 0 && _v.field2.text.length > 0) {
-        NSLog(@"登录成功");
+    if (_v.field1.text.length == 0 && _v.field2.text.length == 0) {
+        [HUD successHUD:@"登录成功"];
         if ([self.delegate respondsToSelector:@selector(passName:passPwd:)]) {
             [self.delegate passName:_v.field1.text passPwd:_v.field2.text];
         }
         _v.field1.text = @"";
         _v.field2.text = @"";
         [self.v endEditing:YES];
-        [self dismissViewControllerAnimated:YES completion:nil];
+        HomeVC *vc = [HomeVC new];
+        vc.homeData = @[@"11111",@"22222",@"33333"];
+        [self.navigationController pushViewController:vc animated:YES];
     } else {
-        [HUD successHUD:@"错误"];
+        [HUD failHUD];
     }
 }
 
